@@ -1,8 +1,7 @@
 [project]
 name = "quantiloon"
 version = "0.1.0"
-description = "Baseline + API scaffold"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 
 dependencies = [
   "fastapi==0.111.0",
@@ -12,9 +11,3 @@ dependencies = [
   "transformers==4.43.2",
   "scikit-learn==1.5.1"
 ]
-
-[tool.ruff]
-line-length = 100
-
-[tool.black]
-line-length = 100
